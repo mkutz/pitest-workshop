@@ -13,7 +13,7 @@ Also note that [the `execution` configuration](pom.xml#L103-L110) will cause [Pi
 
 Objectives
 ----------
-- [ ] Checkout [User] and [UserClassSpec]. Note that [MyClassSpec] covers every line/branch in [MyClass].
+- [ ] Checkout [User] and [UserClassSpec]. Note that [UserClassSpec] covers every line/branch in [User].
 - [ ] Run Pitest via `mvn install pitest:mutationCoverage`, open the [report] and try to understand it.
 - [ ] Try to "kill" the remaining mutations one by one.
 
@@ -23,6 +23,6 @@ Objectives
 [Spock]: <https://github.com/spockframework/spock>
 [JUnit]: <http://junit.org>
 
-[MyClass]: <src/main/java/de/assertagile/workshop/pitest/User.java>
-[MyClassSpec]: <src/test/groovy/de/assertagile/workshop/pitest/UserClassSpec.groovy>
+[User]: <src/main/java/de/assertagile/workshop/pitest/User.java>
+[UserClassSpec]: <src/test/groovy/de/assertagile/workshop/pitest/UserClassSpec.groovy>
 [report]: <target/pit-reports/de.assertagile.workshop.pitest/index.html>
