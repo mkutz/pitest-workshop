@@ -13,7 +13,7 @@ Also note that [the `execution` configuration](pom.xml#L103-L110) will cause [Pi
 
 Objectives
 ----------
-- [ ] Checkout [User] and [UserClassSpec]. Note that [UserClassSpec] covers every line/branch in [User].
+- [ ] Checkout [User] and [UserClassSpec].
 - [ ] Run Pitest via `mvn install pitest:mutationCoverage`, open the [report] and try to understand it.
 - [ ] Try to "kill" the remaining mutations one by one.
 
