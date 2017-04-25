@@ -1,6 +1,5 @@
 package de.assertagile.workshop.pitest
 
-import spock.lang.PendingFeature
 import spock.lang.Specification
 import spock.lang.Subject
 
