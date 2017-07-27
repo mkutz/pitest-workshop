@@ -31,6 +31,7 @@ In order to get the mutation test coverage information into your Sonar:
 5. When you now run
    ```mvn install sonar:sonar```
    you will find a new kind of [measure](http://localhost:9000/component_measures?id=de.assertagile.workshop%3Apitest-workshop) named [mutation analysis](http://localhost:9000/component_measures/domain/Mutation%20analysis?id=de.assertagile.workshop%3Apitest-workshop)
+6. Optionally active the additional [coding rules](http://localhost:9000/coding_rules#repositories=pitest)
 
 Objectives
 ----------
