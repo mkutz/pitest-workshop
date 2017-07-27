@@ -19,7 +19,7 @@
     <properties>
         <java.version>8</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <sonar.pitest.mode>reuseReports</sonar.pitest.mode>
+        <sonar.pitest.mode>reuseReport</sonar.pitest.mode>
     </properties>
 
 
