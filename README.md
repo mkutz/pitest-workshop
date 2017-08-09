@@ -1,6 +1,8 @@
 Pitest Workshop
 ===============
 
+[![Build Status](https://travis-ci.org/mkutz/pitest-workshop.svg?branch=master)](https://travis-ci.org/mkutz/pitest-workshop)
+
 Workshop for mutation testing with [Pitest]. In this project I use [Groovy] and [Spock] for testing simply because I like it better than [JUnit]. However [Pitest] works just fine for [Junit] as well. 
 
 Project Setup with Maven
